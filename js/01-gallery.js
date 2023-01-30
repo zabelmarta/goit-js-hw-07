@@ -14,8 +14,14 @@ import { galleryItems } from './gallery-items.js';
   
 const galleryBox = document.querySelector(".gallery");
 
-const galleryList = document.createElement("ul");
-const galleryItem = document.createElement("li");
+const galleryList = document.createElement("");
+
+galleryItems.forEach(el)=> {
+  const galleryItem = document.createElement("img");
+
+  galleryList.appendChild(galleryItem);
+}
+
 
 
 
